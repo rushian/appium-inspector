@@ -112,7 +112,7 @@ export default class Session extends Component {
 
           <div className={SessionStyles.sessionFooter}>
             <div className={SessionStyles.desiredCapsLink}>
-              <a href="#" onClick={(e) => e.preventDefault() || shell.openExternal('http://appium.io/docs/en/writing-running-appium/caps/index.html')}>
+              <a href="#" onClick={(e) => e.preventDefault() || shell.openExternal('https://appium.io/docs/en/2.0/guides/caps/')}>
                 <LinkOutlined />&nbsp;
                 {t('desiredCapabilitiesDocumentation')}
               </a>
